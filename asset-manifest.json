@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Arez_project_display/static/css/main.c5484654.chunk.css",
+    "main.js": "/Arez_project_display/static/js/main.a4af8033.chunk.js",
+    "main.js.map": "/Arez_project_display/static/js/main.a4af8033.chunk.js.map",
+    "runtime-main.js": "/Arez_project_display/static/js/runtime-main.8564a15e.js",
+    "runtime-main.js.map": "/Arez_project_display/static/js/runtime-main.8564a15e.js.map",
+    "static/css/2.e537a21b.chunk.css": "/Arez_project_display/static/css/2.e537a21b.chunk.css",
+    "static/js/2.6a0872ba.chunk.js": "/Arez_project_display/static/js/2.6a0872ba.chunk.js",
+    "static/js/2.6a0872ba.chunk.js.map": "/Arez_project_display/static/js/2.6a0872ba.chunk.js.map",
+    "index.html": "/Arez_project_display/index.html",
+    "static/css/2.e537a21b.chunk.css.map": "/Arez_project_display/static/css/2.e537a21b.chunk.css.map",
+    "static/css/main.c5484654.chunk.css.map": "/Arez_project_display/static/css/main.c5484654.chunk.css.map",
+    "static/js/2.6a0872ba.chunk.js.LICENSE.txt": "/Arez_project_display/static/js/2.6a0872ba.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/Arez_project_display/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8564a15e.js",
+    "static/css/2.e537a21b.chunk.css",
+    "static/js/2.6a0872ba.chunk.js",
+    "static/css/main.c5484654.chunk.css",
+    "static/js/main.a4af8033.chunk.js"
+  ]
+}
