@@ -1,0 +1,149 @@
+.cartWrapper {
+  padding: 0px 60px;
+  min-width: 650px;
+  margin: 0 auto;
+  flex: 1;
+}
+
+.cartLogo {
+  border-bottom: 5px solid rgb(46, 46, 46);
+  margin: 0px 0px 15px;
+  padding: 30px 10px 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.shoppingCartCantent {
+  background: rgb(255, 254, 254);
+  padding: 10px;
+  min-width: 600px;
+}
+
+.shoppingCartcontent {
+  color: red;
+}
+
+.noCart {
+  height: 102px;
+  text-align: center;
+  line-height: 102px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.shoppingCartFooter {
+  padding: 10px 20px 0px;
+}
+
+.shoppingCartTotal {
+  border-top: 3px solid rgb(134, 128, 128);
+  padding: 20px 0px;
+  text-align: right;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.buyerData {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px 0px 0px;
+}
+
+.buyerLeft {
+  margin: 0px 0px 15px 15px;
+  border: 2px solid rgb(172, 172, 172);
+  box-shadow: 3px 3px rgb(148, 148, 148);
+  width: 49%;
+  padding: 5px;
+  color: rgba(49, 49, 49, 0.822);
+  font-weight: bold;
+  background: rgb(255, 255, 231);
+}
+
+.buyerBox {
+  font-size: 18px;
+  padding: 3px 5px;
+}
+
+.buyerName {
+  margin: 5px 0px 0px 0px;
+}
+
+.buyerAddress {
+  margin: 0px 0px 10px 0px;
+}
+
+.buyerInput {
+  width: 98%;
+}
+
+.buyerRight {
+  width: 49%;
+  margin: 0px 15px 15px 15px;
+  padding: 0px 15px 15px 15px;
+  font-size: 18px;
+}
+
+.buyerMessage {
+  border: 2px solid rgb(133, 131, 131);
+  box-shadow: 3px 3px rgb(148, 148, 148);
+  height: 80%;
+  width: 100%;
+}
+
+.buyerBtn {
+  margin: 20px 0px;
+  width: 100%;
+  height: 30px;
+  background: red;
+  border: 1px solid rgb(172, 172, 172);
+  box-shadow: 3px 3px rgb(148, 148, 148);
+  color: white;
+}
+
+.errerText {
+  margin: 3px 0px;
+  font-size: 15px;
+  color: red;
+}
+
+.hide {
+  display: none;
+}
+
+@media (min-width: 1250px) {
+  .cartWrapper {
+    min-width: 1100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cartWrapper {
+    min-width: 0px;
+    padding: 0px;
+  }
+
+  .buyerLeft {
+    margin: auto;
+    width: 90%;
+  }
+
+  .buyerRight {
+    margin: 20px auto 20px;
+    padding: 0px;
+    width: 91%;
+    height: 200px;
+  }
+
+  .buyerData {
+    display: block;
+  }
+
+  .buyerBtn {
+    margin: 10px 0px;
+  }
+
+  .shoppingCartCantent {
+    min-width: 0px;
+  }
+}

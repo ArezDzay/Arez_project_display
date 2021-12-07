@@ -1,0 +1,77 @@
+.orderWrapper {
+  padding: 0px 60px;
+  min-width: 650px;
+  margin: 0 auto;
+  flex: 1;
+}
+
+.orderLogo {
+  border-bottom: 5px solid rgb(46, 46, 46);
+  margin: 0px 0px 15px;
+  padding: 30px 10px 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.orderCantent {
+  background: rgb(255, 254, 254);
+  padding: 15px;
+}
+
+.orderTop {
+  display: flex;
+  justify-content: space-around;
+  border-top: 3px solid black;
+  border-bottom: 2px solid black;
+  font-weight: bold;
+}
+
+.orderContent {
+  height: 45px;
+  line-height: 45px;
+}
+
+.orderName {
+  position: relative;
+  right: 15px;
+}
+
+.orderProduct {
+  width: 230px;
+  position: relative;
+  right: -40px;
+}
+
+.orderPrice {
+  position: relative;
+  right: 19px;
+}
+
+.pay {
+  position: relative;
+  right: 8px;
+}
+
+@media (min-width: 1250px) {
+  .orderWrapper {
+    min-width: 1100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .orderWrapper {
+    min-width: 0px;
+    padding: 0px;
+  }
+
+  .orderCantent {
+    padding: 5px 15px 15px;
+  }
+  .orderTop {
+    display: none;
+  }
+
+  .orderWrapper {
+    min-width: 0px;
+  }
+}

@@ -1,0 +1,98 @@
+.orderBoxWrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px 20px;
+  border-top: 2px solid rgb(194, 194, 194);
+}
+
+.orderBoxContent {
+  height: 45px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.orderBoxProduct {
+  display: flex;
+  justify-content: space-between;
+  width: 230px;
+}
+
+.orderBoxPay {
+  color: red;
+}
+
+.orderBoxProduct_2 {
+  display: none;
+  justify-content: space-between;
+  width: 230px;
+}
+
+.changeOrderBoxWrapper {
+  display: none;
+  justify-content: space-around;
+  margin: 8px 0px 0px;
+}
+
+@media (max-width: 768px) {
+  .orderBoxWrapper {
+    border-top: 0px solid rgb(194, 194, 194);
+    padding: 0px;
+  }
+
+  .orderBoxContent {
+    height: 30px;
+  }
+
+  .orderBoxProduct {
+    display: none;
+  }
+
+  .orderBoxProduct_2 {
+    display: flex;
+    padding: 25px 0px 15px;
+    margin: 0px auto;
+  }
+
+  .orderBoxContentName {
+    position: relative;
+    right: 10px;
+  }
+
+  .orderBoxContentNum {
+    position: relative;
+    right: 3px;
+  }
+
+  .orderBoxContentPay {
+    position: relative;
+    left: 10px;
+  }
+
+  .orderBoxName {
+    position: relative;
+    left: -3px;
+  }
+
+  .orderBoxNum {
+    position: relative;
+    left: 10px;
+  }
+
+  .orderBoxPay {
+    position: relative;
+    left: 20px;
+  }
+
+  .changeOrderBoxWrapper {
+    display: flex;
+  }
+
+  .borderWrapper {
+    border-bottom: 1px solid black;
+  }
+
+  .orderBoxTop {
+    font-weight: bold;
+  }
+}

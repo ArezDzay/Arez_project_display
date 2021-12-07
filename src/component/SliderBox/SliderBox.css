@@ -1,0 +1,9 @@
+.sliderBoxWrapper {
+  width: 100%;
+  margin: auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  opacity: 0%;
+}

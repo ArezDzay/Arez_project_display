@@ -1,0 +1,74 @@
+.loginBody {
+  background-color: black;
+}
+
+.loginImg {
+  background-image: url("https://genk.mediacdn.vn/139269124445442048/2021/4/2/photo-1-16173286664651138166919.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  animation-name: loginImg;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes loginImg {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 100;
+  }
+}
+
+.loginWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border: 1px solid black;
+  width: 350px;
+  padding: 10px 15px 5px;
+}
+
+.loginInput {
+  height: 20px;
+  width: 98%;
+  border: 2px solid darkgray;
+}
+
+.loginContent {
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.loginBtn {
+  margin: 13px 0px;
+  padding: 5px;
+  width: 100%;
+  background: rgb(255, 53, 53);
+  border-radius: 3px;
+  border: 1px solid rgb(88, 0, 0);
+  font-size: 16px;
+  color: white;
+}
+
+.explanation {
+  position: absolute;
+  top: 90%;
+  right: 5%;
+  color: white;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .loginWrapper {
+    width: 250px;
+  }
+}

@@ -1,0 +1,24 @@
+.footerWrapper {
+  margin: 30px 0px 0px;
+  background: black;
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerBox {
+  padding: 20px 0px 0px;
+  color: white;
+}
+
+.footerTitle {
+  padding: 10px 0px;
+  font-size: 20px;
+}
+
+.footerContent {
+  color: rgb(155, 155, 155);
+  padding: 3px;
+  font-size: 13px;
+}

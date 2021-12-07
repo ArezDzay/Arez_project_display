@@ -1,0 +1,77 @@
+.cartBoxWrepper {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.cartBoxImg {
+  width: 122px;
+  height: 92px;
+  padding: 0px 20px 0px 30px;
+}
+
+.skeletonCartBoxImg {
+  width: 100%;
+  height: 100%;
+}
+
+.cartBoxCenter {
+  flex-grow: 1;
+  max-width: auto;
+  text-align: left;
+}
+
+.skeletoncartBoxName {
+  margin: 30px 10px 20px 0px;
+  height: 1em;
+  width: 70%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.skeletoncartBoxPrice {
+  font-size: 15px;
+  width: 50px;
+  height: 15px;
+  color: red;
+}
+
+.cartBoxRight {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skeletonPurchaseQty {
+  width: 70px;
+  height: 30px;
+  margin: 27px 0px 0px 0px;
+}
+
+.skeletonBox_2 {
+  width: 70px;
+  height: 30px;
+  margin: 27px 15px 0px 30px;
+}
+
+.CartBoxBtn {
+  padding: 34px 30px;
+}
+
+.skeletonCartBoxBtn {
+  width: 25px;
+  height: 25px;
+}
+
+.skeleton {
+  animation: skeletonLoadin 2s linear infinite alternate;
+}
+
+@keyframes skeletonLoadin {
+  0% {
+    background-color: rgb(238, 238, 238);
+  }
+
+  100% {
+    background-color: rgb(158, 158, 158);
+  }
+}
